@@ -1,0 +1,313 @@
+* {
+  font-family: Markazi;
+
+}
+
+.App {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 0.2rem;
+  background-color: #f4ce14;
+  color: #333333;
+  border: none;
+  box-shadow: #333333;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+
+/* ********************************************* */
+/* Navigation Area*/
+/* ********************************************* */
+.NavBar {
+  
+  
+  padding-left: 5vw;
+  padding-right: 5vw;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  list-style: none;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: ease-in;
+  
+
+}
+
+.NavBar a {
+  color: #495e57;
+  font-weight: bold;
+}
+
+.NavBar a:hover {
+  color: #ee9972;
+  transition-duration: 200ms;
+}
+
+/* ********************************************* */
+/* Hero information */
+/* ********************************************* */
+.Hero {
+  display: flex;
+  color: #edefee;
+  background-color: #495e57;
+
+}
+
+.Hero h1 {
+  font-size: calc(10px + 2vmin);
+  text-align: start;
+  padding-left: 10%;
+  color: #f4ce14;
+}
+
+.Hero h2 {
+  font-size: 2vmin;
+  text-align: start;
+  padding-left: 10%;
+}
+
+.Image {
+  border-radius: 2rem;
+  width: 80%;
+  margin: 1rem;
+}
+
+.Button {
+  border-radius: 0.2rem;
+  background-color: #f4ce14;
+  color: #333333;
+  border: none;
+  box-shadow: #333333;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+.left {
+  width: 50%;
+  flex-direction: column;
+
+}
+
+.right {
+  width: 50%;
+  flex-direction: column;
+}
+
+/* ********************************************* */
+/* Specials info*/
+/* ********************************************* */
+.specialsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.specialsHeader button{
+  max-height: 1.5rem;
+
+}
+
+.specials {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  background-color: #edefee;
+  border-radius: 5%;
+  margin: 1%;
+  padding: 1%;
+
+}
+
+.cardImage {
+  width: 28vw;
+  max-height: max-content;
+  margin: 0%;
+  padding: 0%;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  color: #495e57;
+  font-size: large;
+}
+
+.cardPrice {
+  color: #ee9972;
+  font-size: large;
+  justify-content: flex-end;
+}
+
+.cardDescription{
+  color: #495e57;
+  text-align: left;
+  font-size: small;
+
+}
+
+.cardButton {
+
+}
+/* ********************************************* */
+/* Testimonials*/
+/* ********************************************* */
+.Testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #495e57;
+  padding: 2%;
+}
+
+
+.review {
+  display: flex;
+  flex-direction: column;
+  background-color: #edefee;
+  border-radius: 5%;
+  margin: 1%;
+  padding: 3%;
+  height: 25rem;
+  float: left;
+  
+
+}
+
+.review h1 {
+  font-size: medium;
+}
+
+.reviewCard {
+  background-color: #edefee;
+  border-radius: 5%;
+
+  
+
+}
+
+.reviewImage {
+
+  width: auto;
+  border-radius: 50%;
+}
+
+.reviewInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+  
+}
+
+.reviewName {
+  padding: 10%;
+}
+
+.ReviewDescription{
+  color: #495e57;
+  text-align: left;
+  font-size: medium;
+
+}
+
+/* ********************************************* */
+/* About*/
+/* ********************************************* */
+
+.About {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  padding: 2%;
+
+}
+
+.About h2 {
+  font-size: small;
+}
+
+.aboutImage {
+  width: 40%;
+  border-radius: 0.5rem;
+  margin: 1%;
+
+}
+
+
+
+
+/* ********************************************* */
+/* Footer*/
+/* ********************************************* */
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: x-small;
+  background-color: #333333;
+  padding: 0.5rem;
+}
+
+.Footer h3 {
+  font-weight: 100;
+  color: #edefee;
+}
+
+.footerLeft {
+  width: 31.3%;
+  flex-direction: column;
+
+}
+
+.footerLeft::first-line {
+  font-weight: bold;
+}
+
+.footerMiddle {
+  width: 31.3%;
+  flex-direction: column;
+  
+}
+.footerMiddle::first-line {
+  font-weight: bold;
+}
+
+.footerRight {
+  width: 31.3%;
+  flex-direction: column;
+  
+}
+
+.footerRight::first-line {
+  font-weight: bold;
+}
